@@ -10,7 +10,7 @@ First, clone the project and build locally:
 
 ~~~
 git clone 
-cd spring-boot-docker-mysql
+cd Java-spring-boot-docker-mysql
 mvn clean package docker:build
 ~~~
 
