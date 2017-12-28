@@ -152,6 +152,7 @@ docker-machine ip
 2.Execute following command
 docker-machine env --shell cmd default
 3.you will receive following output
+
 SET DOCKER_TLS_VERIFY=1
 
 SET DOCKER_HOST=tcp://192.168.99.102:2376
@@ -165,6 +166,7 @@ REM Run this command to configure your shell:
 REM @FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd default') DO @%i
 
 4.Copy the highlighted line and execute on cmd
+
 @FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd default') DO @%i
 
 5.Execute following command
